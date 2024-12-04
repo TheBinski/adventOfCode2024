@@ -30,4 +30,18 @@ for num in list1 do
   index += 1
 end
 
-puts("Total Distance: #{totalDistance}")
+puts("Part 1\nTotal Distance: #{totalDistance}")
+
+totalDistance = 0
+
+for num in list1 do
+  numCounter = 0
+  for num2 in list2 do
+    if num == num2
+      numCounter += 1
+    end
+  end
+  totalDistance += num * numCounter
+end
+
+puts("Part 2\nTotal Distance: #{totalDistance}")
