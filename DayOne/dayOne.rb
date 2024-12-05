@@ -1,4 +1,4 @@
-input = File.new("dayOneFirstInput.txt", "r")
+input = File.new(Dir.pwd + "/DayOne/dayOneFirstInput.txt", "r")
 
 list1 = []
 list2 = []
