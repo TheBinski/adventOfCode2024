@@ -1,5 +1,5 @@
 def main
-  input = File.new(Dir.pwd + "/DayTwo/dayTwoInput.txt", "r")
+  input = File.new(Dir.pwd + "/Day2/dayTwoInput.txt", "r")
 
   correctReportsCounter = 0
   
